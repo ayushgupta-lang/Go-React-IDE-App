@@ -1,0 +1,100 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+  background-image: url('https://images.pexels.com/photos/7130481/pexels-photo-7130481.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-size: cover; 
+  background-position: center; 
+}
+
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.select {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.select option {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+
+.textarea {
+  width: 100%;
+  padding: 15px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.output,
+.error {
+  margin-top: 20px;
+}
+
+.output h2,
+.error h2 {
+  margin-bottom: 10px;
+}
+
+.pre {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.pre pre {
+  margin: 0;
+}
+
+.label{
+
+  font-weight: bold;
+  color: #000; 
+}
+
+.mine{
+  margin-right: 10px;
+  font-weight: bold;
+  color: #000;
+}
